@@ -14,3 +14,5 @@ goto end
 echo do_nothing
 
 :end
+
+rem copy this file to D:\Program Files\Visual Paradigm for UML 10.0\bin\vp_windows\svn\bin
