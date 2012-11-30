@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_3INIUDsGEeKIapTYqFWEPg" name="profile" metaclassReference="_BvUQ8DsHEeKIapTYqFWEPg">
+  <eAnnotations xmi:id="_JYclgDsHEeKIapTYqFWEPg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_JYdMkDsHEeKIapTYqFWEPg" name="profile" nsURI="http:///schemas/profile/_JYaJQDsHEeKIapTYqFWEPg/0" nsPrefix="profile">
+      <eAnnotations xmi:id="_JYfBwTsHEeKIapTYqFWEPg" source="PapyrusVersion">
+        <details xmi:id="_JYfBwjsHEeKIapTYqFWEPg" key="Version" value="0.0.1"/>
+        <details xmi:id="_JYfBwzsHEeKIapTYqFWEPg" key="Comment" value=""/>
+        <details xmi:id="_JYfBxDsHEeKIapTYqFWEPg" key="Copyright" value=""/>
+        <details xmi:id="_JYfBxTsHEeKIapTYqFWEPg" key="Date" value="2012-11-30"/>
+        <details xmi:id="_JYfBxjsHEeKIapTYqFWEPg" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_JYdMkTsHEeKIapTYqFWEPg" name="PapyrusEl">
+        <eAnnotations xmi:id="_JYdMkjsHEeKIapTYqFWEPg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_6IaxADsGEeKIapTYqFWEPg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_JYdMkzsHEeKIapTYqFWEPg" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:id="_BvUQ8DsHEeKIapTYqFWEPg" alias="Class">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_6IaxADsGEeKIapTYqFWEPg" name="PapyrusEl">
+    <ownedAttribute xmi:id="_CzkjQDsHEeKIapTYqFWEPg" name="base_Class" association="_CzlKUDsHEeKIapTYqFWEPg">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_CzlKUDsHEeKIapTYqFWEPg" name="E_PapyrusEl_Class1" memberEnd="_CzlKUTsHEeKIapTYqFWEPg _CzkjQDsHEeKIapTYqFWEPg">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_CzlKUTsHEeKIapTYqFWEPg" name="extension_PapyrusEl" type="_6IaxADsGEeKIapTYqFWEPg" aggregation="composite" association="_CzlKUDsHEeKIapTYqFWEPg"/>
+  </packagedElement>
+</uml:Profile>
